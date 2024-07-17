@@ -1,11 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project-2</title>
-</head>
-<body>
-    <h1>Testing</h1>
-</body>
+    <style>
+      .font {
+        font-family: "Work Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 26px;
+      }
+
+      .navigation {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .left {
+        font-weight: bold;
+      }
+
+      .right {
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      .nav-op {
+        font-size: 18px;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+
+      #div1 {
+        margin-left: 529px;
+        margin-right: 529px;
+        margin-top: 205px;
+        text-align: center;
+      }
+      .nav-heading {
+        font-size: 64px;
+        font-weight: bold;
+        text-align: center;
+      }
+      .nav-des{
+        text-align: center;
+        font-size: 18px;
+      }
+      .btn{
+        background: #FF900E;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 25px;
+        border: none;
+        border-radius: 8px;
+        margin-top: 33px;
+      }
+    </style>
+  </head>
+
+  <body class="font">
+    <header>
+      <div class="navigation">
+        <div class="left">G3 Architects</div>
+        <div class="right">
+          <div class="nav-op">Home</div>
+          <div class="nav-op">About</div>
+          <div class="nav-op">Contact us</div>
+          <div class="nav-op">Login</div>
+        </div>
+      </div>
+      <div id="div1">
+        <div class="nav-heading">Brand New Group of Architects</div>
+        <div class="nav-des">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+          possimus nihil rem itaque eaque similique iste, cumque pariatur ut et!
+        </div>
+        <button class="btn">Explore Now</button>
+      </div>
+    </header>
+  </body>
 </html>
