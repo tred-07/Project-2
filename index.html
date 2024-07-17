@@ -3,82 +3,120 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project-2</title>
+    <title>G3-Architect</title>
     <style>
       .font {
         font-family: "Work Sans", sans-serif;
         font-optical-sizing: auto;
         font-weight: normal;
         font-style: normal;
-        font-size: 26px;
+        font-size: 1rem;
       }
-
-      .navigation {
+      /* shared style */
+      .display-flex {
         display: flex;
+      }
+      .gray {
+        color: #424242;
+      }
+      .light-gray {
+        color: #727272;
+      }
+      .primary-bg {
+        background: rgba(255, 144, 14, 0.1);
+      }
+      .center {
+        margin: 0px auto;
+      }
+      /* nav bar */
+      .navbar {
+        align-items: center;
         justify-content: space-between;
       }
-
-      .left {
-        font-weight: bold;
+      a {
+        text-decoration: none;
       }
-
-      .right {
+      .nav-item {
+        list-style: none;
+        margin-right: 30px;
+      }
+      .nav-links{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: start;
+        background:black;
       }
-
-      .nav-op {
-        font-size: 18px;
-        padding-left: 5px;
-        padding-right: 5px;
+      /* banner style */
+      .navbar,
+      .banner {
+        max-width: 1440px;
       }
-
-      #div1 {
-        margin-left: 529px;
-        margin-right: 529px;
-        margin-top: 205px;
-        text-align: center;
-      }
-      .nav-heading {
-        font-size: 64px;
-        font-weight: bold;
-        text-align: center;
-      }
-      .nav-des{
-        text-align: center;
-        font-size: 18px;
-      }
-      .btn{
-        background: #FF900E;
-        color: #FFFFFF;
-        font-size: 20px;
-        font-weight: 600;
-        padding: 25px;
+      .btn {
+        background-color: rgba(255, 144, 14, 1);
         border: none;
         border-radius: 8px;
+        color: azure;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        font-size: 1.25rem;
+        font-weight: 700;
+        text-align: center;
         margin-top: 33px;
+        margin-bottom: 49px;
+      }
+      .banner-title {
+        text-align: center;
+        font-size: 4rem;
+        font-weight: 800;
+      }
+      .banner-des {
+        text-align: center;
+        font-size: 1rem;
+      }
+      .banner-content {
+        text-align: center;
+      }
+      .banner-img {
+        width: 100%;
+      }
+      /* responsive */
+      @media screen and(max-width:576px) {
+        .navbar{
+          flex-direction: column;
+        }
+        .nav-links{
+            flex-direction: column;
+        }
       }
     </style>
   </head>
-
   <body class="font">
-    <header>
-      <div class="navigation">
-        <div class="left">G3 Architects</div>
-        <div class="right">
-          <div class="nav-op">Home</div>
-          <div class="nav-op">About</div>
-          <div class="nav-op">Contact us</div>
-          <div class="nav-op">Login</div>
+    <header class="primary-bg">
+      <div class="navbar display-flex center">
+        <div class="brand">
+          <h3>G3-Architect</h3>
         </div>
+          <ul class="nav-links">
+            <li class="nav-item"><a href="" class="light-gray">Home</a></li>
+            <li class="nav-item"><a href="" class="light-gray">About</a></li>
+            <li class="nav-item">
+              <a href="" class="light-gray">Contact us</a>
+            </li>
+            <li class="nav-item"><a class="light-gray" href="">Login</a></li>
+          </ul>
       </div>
-      <div id="div1">
-        <div class="nav-heading">Brand New Group of Architects</div>
-        <div class="nav-des">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-          possimus nihil rem itaque eaque similique iste, cumque pariatur ut et!
+      <div class="banner center">
+        <div class="banner-content">
+          <div class="banner-title">Brand New Group of Architects</div>
+          <div class="banner-des">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet
+            incidunt doloremque explicabo accusantium nulla beatae pariatur,
+            neque hic possimus odio.
+          </div>
+          <button class="btn">Explore More</button>
         </div>
-        <button class="btn">Explore Now</button>
+        <img src="./images/banner.png" alt="" class="banner-img center" />
       </div>
     </header>
   </body>
