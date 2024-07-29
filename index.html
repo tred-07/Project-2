@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Project-2</title>
+  <script src="https://kit.fontawesome.com/74c99aa0ca.js" crossorigin="anonymous"></script>
   <style>
     header {
       width: 100%;
@@ -14,7 +15,6 @@
       justify-content: space-evenly;
       align-items: center;
     }
-
     .navlinks ul {
       display: flex;
       justify-content: space-evenly;
@@ -196,6 +196,11 @@
       display: none;
     }
     }
+    @media screen and (min-width:576.1px) {
+      .nav-triple-bar{
+        display: none;
+      }
+    }
   </style>
 </head>
 
@@ -203,7 +208,7 @@
   <header>
     <div class="navbar">
       <div class="nav-title">Fitness</div>
-      <div class="nav-triple-bar">=</div>
+      <div class="nav-triple-bar"><i class="fa-solid fa-bars"></i></div>
       <div class="navlinks">
         <ul>
           <li><a href="">Home</a></li>
@@ -307,7 +312,7 @@
           Now</button>
       </div>
       <div class="s-id-2-part-2">
-        <img src="./images/run.jpg" alt="">
+        <img src="./images/run.jpg" alt="" style="object-fit: none;object-position: 66% 33%;width: 100%;">
       </div>
     </section>
     <!-- <section class="" id="s-id-3">
@@ -331,5 +336,8 @@
     <section class="" id="s-id-5"></section>
     <section class="" id="s-id-6"></section>
   </main>
+  <footer>
+    <i class="fa-solid fa-bars" style="color: orange;"></i>
+  </footer>
 </body>
 </html>
