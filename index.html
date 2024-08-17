@@ -7,6 +7,10 @@
   <title>Project-2</title>
   <script src="https://kit.fontawesome.com/74c99aa0ca.js" crossorigin="anonymous"></script>
   <style>
+    *{
+      background:#000;
+      color: aliceblue;
+    }
     header {
       width: 100%;
     }
@@ -98,22 +102,25 @@
 
     #s-id-3 {
       width: 100%;
-      text-align: center;
+      /* text-align: center; */
     }
 
-    .triple-collage-containers-1,
+    .triple-collage-containers-1{
+      display: flex;
+      width: 100%;
+    }
     .triple-collage-containers-2 {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      display: flex;
+      flex-direction: row;
       width: 100%;
       gap: 1rem;
+      padding-bottom: 1rem;
     }
 
     .triple-collage-containers-1 img,
     .triple-collage-containers-2 img {
-      width: 100%;
-      height: 100%;
       border-radius: 1rem;
+      /* padding-bottom: 1rem; */
     }
 
     @media screen and (max-width: 576px) {
@@ -317,7 +324,7 @@
         <img src="./images/run.png" alt="" style="width: 100%;">
       </div>
     </section>
-    <!-- <section class="" id="s-id-3">
+    <section class="" id="s-id-3">
       <h3>Tarinings and Excercises</h3>
       <p>We believe Fitness shoulb be accessible to everyone, everywhere, regardless of income or access to a gym. With
         hundreds of professional workout.</p>
@@ -331,7 +338,7 @@
         <img src="./images/exercise5.jpg" alt="">
         <img class="hidden" src="./images/exercise6.jpg" alt="">
       </div>
-    </section>   -->
+    </section>  
     <section class="" id="s-id-4">
 
     </section>
