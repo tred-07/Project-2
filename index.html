@@ -1,351 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Project-2</title>
-  <script src="https://kit.fontawesome.com/74c99aa0ca.js" crossorigin="anonymous"></script>
-  <style>
-    *{
-      background:#000;
-      color: aliceblue;
-    }
-    header {
-      width: 100%;
-    }
-    .navbar {
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-    }
-    .navlinks ul {
-      display: flex;
-      justify-content: space-evenly;
-      gap: 2rem;
-    }
-
-    li {
-      list-style: none;
-    }
-
-    a {
-      text-decoration: none;
-    }
-
-    .header-banner {
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      padding: 7rem;
-    }
-    .header-banner-part-1{
-      width: calc(100%-2rem)
-    }
-    .header-banner-part-1-btn {
-      display: flex;
-      gap: 1rem;
-    }
-
-    #workout-videos {
-      padding: 1rem;
-      border-radius: 2rem;
-      font-size: 1.2rem;
-      font-weight: 700;
-    }
-
-    #video-tutorial {
-      padding: 1rem;
-      border-radius: 2rem;
-      font-size: 1.2rem;
-      font-weight: 700;
-    }
-
-    section {
-      margin:0px auto
-    }
-
-    #section-1 {
-      text-align: center;
-    }
-
-    .s-part-1-containers {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-    }
-
-    #s-id-1 {
-      text-align: center;
-    }
-
-    #s-id-2 {
-      display: flex;
-      justify-content: space-evenly;
-      width: 100%;
-      align-items: center;
-    }
-
-    .s-id-2-part-1 {
-      width: 50%;
-      text-align: center;
-    }
-
-    .s-id-2-part-2 {
-      width: 50%;
-    }
-
-    .s-id-2-part-2 img {
-      width: 100%;
-      border: none;
-      border-radius: 2rem;
-    }
-
-    #s-id-3 {
-      width: 100%;
-      /* text-align: center; */
-    }
-
-    .triple-collage-containers-1{
-      display: flex;
-      width: 100%;
-    }
-    .triple-collage-containers-2 {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-      gap: 1rem;
-      padding-bottom: 1rem;
-    }
-
-    .triple-collage-containers-1 img,
-    .triple-collage-containers-2 img {
-      border-radius: 1rem;
-      /* padding-bottom: 1rem; */
-    }
-
-    @media screen and (max-width: 576px) {
-      header ,section{
-        margin: 0px auto;
-      }
-      .nav-title {
-        text-align: center;
-      }
-      .navlinks {
-        display: none;
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/74c99aa0ca.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      @import url("https://fonts.cdnfonts.com/css/miama");
+    </style>
+    <style>
+      .inter {
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-style: normal;
+        color: white;
       }
 
-      .header-banner {
-        flex-direction: column;
-      }
+      @media screen and (max-width: 576px) {
+        .nav-op {
+          display: none;
+        }
 
-      .header-banner-part-1 {
-        text-align: center;
-      }
+        body {
+          background: #111111;
+        }
 
-      .header-banner-part-1-btn {
-        justify-content: space-evenly;
-      }
+        .nav {
+          display: flex;
+          justify-content: space-between;
+          margin-right: 20px;
+          margin-left: 20px;
+          margin-top: 52px;
+          align-items: center;
+        }
+        .banner-button-1 {
+          display: flex;
+        }
+        .video-tutorial {
+          width: 206px;
+          height: 96px;
+          font-size: 16px;
+          background: local;
+          border: 1px solid rgba(255, 255, 255, 0.1);
+          border-radius: 12px;
+          position: absolute;
+          left: 32px;
+          top: 900px;
+          backdrop-filter: blur(10px);
+        }
 
-      .header-banner-part-2 {
-        text-align: center;
-        margin: 0px auto;
+        .free-vidoes {
+          width: 193px;
+          height: 98px;
+          background: local;
+          border-radius: 12px;
+          position: absolute;
+          left: 220px;
+          top: 776px;
+          backdrop-filter: blur(10px);
+        }
+        .section-1-collage{
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+        }
       }
-      .header-banner-part-2 img{
-        margin: 0px auto;
-        width: 100%;
-      }
-      /* .workout-videos {
-        margin-left: 195px;
-        margin-top: -550px;
-      }
+    </style>
+    <link rel="stylesheet" href="desktop.css" />
+  </head>
 
-      .video-tutorial {
-        margin-top: 85px;
-        margin-left: -160px;
-      } */
-      .s-part-1-containers {
-        grid-template-columns: repeat(1, 1fr);
-      }
-      .s-part-1-container {
-        /* margin: 0px auto; */
-        text-align: center;
-      }
-
-      .s-part-1-container img {
-        /* margin: 0px auto; */
-        /* border: none; */
-        /* border-radius: 2rem; */
-      }
-
-      #s-id-2 {
-        flex-direction: column;
-      }
-      .s-id-2-part-2{
-        width: 100%;
-      }
-      #s-id-3 {
-        width: 100%;
-        background: #000;
-        text-align: center;
-      }
-
-      .triple-collage-containers-1,
-      .triple-collage-containers-2 {
-        grid-template-columns: repeat(2, 1fr);
-        width: 100%;
-        gap: 1rem;
-      }
-
-      .triple-collage-containers-1 img,
-      .triple-collage-containers-2 img {
-        width: 100%;
-        height: 100%;
-      }
-      .hidden {
-      display: none;
-    }
-    }
-    @media screen and (min-width:576.1px) {
-      .nav-triple-bar{
-        display: none;
-      }
-    }
-  </style>
-</head>
-
-<body>
-  <header>
-    <div class="navbar">
-      <div class="nav-title">Fitness</div>
-      <div class="nav-triple-bar"><i class="fa-solid fa-bars"></i></div>
-      <div class="navlinks">
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Service</a></li>
-          <li><a href="">Conatact</a></li>
-          <li><a href="">About</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="header-banner">
-      <div class="header-banner-part-1">
-        <h3>Get body shape & stay healthy</h3>
-        <p>
-          A huge selection of heath and fitness content, healthy receipes and
-          tranformation stories to help you get fit and stay fit !
-        </p>
-        <div class="header-banner-part-1-btn">
-          <button class="with-bg" style="
-                border: none;
-                border-radius: 2rem;
-                padding: 2rem;
-                background: #f37302;
-                font-size: 1.5rem;
-              ">
-            Join Now !
-          </button>
-          <button class="without-bg" style="
-                border: 0.1rem solid rgb(2, 1, 1);
-                border-radius: 2rem;
-                padding: 2rem;
-                background: none;
-                font-size: 1.5rem;
-              ">
-            Download App
-          </button>
+  <body>
+    <header>
+      <section class="header-1">
+        <div class="nav">
+          <div
+            class="nav-title"
+            style="
+              color: #e6533c;
+              font-size: 2rem;
+              font-style: italic;
+              font-weight: 800;
+            "
+          >
+            Fitness
+          </div>
+          <div class="nav-bar">
+            <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+          </div>
+          <div
+            class="nav-op"
+            style="border: 1px solid white; border-radius: 2.25rem"
+          >
+            <ul style="display: flex; padding-left: 0rem; padding-right: 0rem">
+              <li style="list-style: none">
+                <a
+                  href=""
+                  style="
+                    text-decoration: none;
+                    padding-left: 3rem;
+                    padding-right: 3rem;
+                  "
+                  >Home</a
+                >
+              </li>
+              <li style="list-style: none">
+                <a
+                  href=""
+                  style="
+                    text-decoration: none;
+                    padding-left: 3rem;
+                    padding-right: 3rem;
+                  "
+                  >Service</a
+                >
+              </li>
+              <li style="list-style: none">
+                <a
+                  href=""
+                  style="
+                    text-decoration: none;
+                    padding-left: 3rem;
+                    padding-right: 3rem;
+                  "
+                  >Contact</a
+                >
+              </li>
+              <li style="list-style: none">
+                <a
+                  href=""
+                  style="
+                    text-decoration: none;
+                    padding-left: 3rem;
+                    padding-right: 3rem;
+                  "
+                  >About</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="header-banner-part-2">
-        <img src="./images/Images 2.png" alt="Image" style="background: #f37302;"/>
-        <div class="workout-videos">
-          <button id="workout-videos">
-            <span style="font-size: 2rem">500+</span> <br />
-            Free workout videos
-          </button>
+        <div class="header-banner">
+          <div class="header-banner-part-1">
+            <div id="hbp-1-h" style="color: #ffffff">
+              <p style="font-size: 78px; font-weight: 800">
+                Get body in <br /><span
+                  class="miama"
+                  style="font-family: 'Miama', sans-serif"
+                  >shape</span
+                >
+                & stay healthy
+              </p>
+            </div>
+            <div id="hbp-1-des">
+              <p
+                class="inter"
+                style="color: rgba(255, 255, 255, 0.5); font-size: 16px"
+              >
+                A huge selection of health and fitness content, healthy recipes
+                and transformation stories to help you get fit and stay fit!
+              </p>
+            </div>
+            <div class="banner-button-1">
+              <button
+                class="join-club-now"
+                style="
+                  background: #e6533c;
+                  border: none;
+                  border-radius: 42px;
+                  padding-left: 46.5px;
+                  padding-right: 46.5px;
+                  padding-top: 16px;
+                  padding-bottom: 16px;
+                  font-size: 18px;
+                  font-weight: 600;
+                  color: #ffffff;
+                "
+              >
+                Join Club Now !
+              </button>
+              <button
+                class="download-now"
+                style="
+                  background: local;
+                  border: 1px solid #ffffff;
+                  border-radius: 42px;
+                  padding-left: 46.5px;
+                  padding-right: 46.5px;
+                  padding-top: 16px;
+                  padding-bottom: 16px;
+                  font-size: 18px;
+                  font-weight: 600;
+                  color: #ffffff;
+                "
+              >
+                Download App
+              </button>
+            </div>
+          </div>
+          <div class="header-banner-part-2">
+            <img src="./images/Images 2.png" alt="Banner" />
+            <div id="video-tutorial">
+              <button class="free-vidoes inter">
+                <span style="font-size: 24px">500+</span> <br />Free Workout
+                Videos
+              </button>
+            </div>
+            <div id="video-tutorial">
+              <button class="video-tutorial inter">
+                <div style="display: flex">
+                  <div
+                    style="
+                      height: 40px;
+                      width: 40px;
+                      border-radius: 50%;
+                      background: #e6533c;
+                      border: none;
+                    "
+                  ></div>
+                  <div>
+                    <span style="font-size: 24px">350+ <br /></span>
+                    Video tutorial
+                  </div>
+                </div>
+              </button>
+            </div>
+          </div>
         </div>
-        <div class="video-tutorial">
-          <button id="video-tutorial">
-            <span style="font-size: 2rem">350+</span> <br />
-            Video tutorials
-          </button>
+      </section>
+    </header>
+    <main>
+      <section class="section-1">
+        <div class="section-1-title inter" style="text-align: center;"><h1>Change Your Habits</h1></div>
+        <div class="section-1-des inter" style="text-align: center;">
+          We believe fitness should be accessible to everyone, everywhere,
+          regardless of income or access to a gym.
         </div>
-      </div>
-    </div>
-  </header>
-  <main>
-    <section class="" id="s-id-1">
-      <h1>Change Your Habits</h1>
-      <div class="des">
-        We believe Fitness shoulb be accessible to everyone, everywhere,
-        regardless of income or access to a gym. With hundreds of professional
-        workout.
-      </div>
-      <div class="s-part-1-containers">
-        <div class="s-part-1-container">
-          <img src="./images/image 2.png" alt="" style="border: none;border-radius: 50%;">
-          <p>
-          <h4>Movement</h4>
-          We believe Fitness shoulb be accessible to everyone, everywhere, regardless of income or access to a gym.
-          </p>
+        <div class="section-1-collage">
+          <div class="inter"><img src="./images/image 2.png" alt="" style="border-radius: 50%;">
+          <h1>Movement</h1>
+          <p>We believe fitness should be accessible to everyone</p>
+          </div>
+          <div class="inter"><img src="./images/image 3.png" alt="" style="border-radius: 50%;">
+          <h1>Time</h1>
+            <p>We believe fitness should be accessible to everyone</p>
+          </div>
+          <div class="inter"><img src="./images/image 4.png" alt="" style="border-radius: 50%;">
+            <h1>Practice</h1>
+          <p>We believe fitness should be accessible to everyone</p>
+          </div>
+          <div class="inter"><img src="./images/image 5.png" alt="" style="border-radius: 50%;">
+            <h1>Weight Loss</h1>
+          <p>We believe fitness should be accessible to everyone</p>
+          </div>
         </div>
-        <div class="s-part-1-container">
-          <img src="./images/image 3.png" alt="" style="border: none;border-radius: 50%;">
-          <p>
-          <h4>Time
-          </h4>
-          We believe Fitness shoulb be accessible to everyone, everywhere, regardless of income or access to a gym.
-          </p>
-        </div>
-        <div class="s-part-1-container">
-          <img src="./images/image 4.png" alt="" style="border: none;border-radius: 50%;">
-          <p>
-          <h4>Practice</h4>
-          We believe Fitness shoulb be accessible to everyone, everywhere, regardless of income or access to a gym.
-          </p>
-        </div>
-        <div class="s-part-1-container">
-          <img src="./images/image 5.png" alt="" style="border: none;border-radius: 50%;">
-          <p>
-          <h4>Weight Loss</h4>
-          We believe Fitness shoulb be accessible to everyone, everywhere, regardless of income or access to a gym.
-          </p>
-        </div>
-      </div>
-    </section>
-    <section class="" id="s-id-2">
-      <div class="s-id-2-part-1">
-        <h3>Run and Extra Mile Easily</h3>
-        <p>We believe Fitness shoulb be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
-        <button class="join-now"
-          style="border: none;border-radius: 2rem;padding-right: 2rem;padding-left: 2rem;padding-top: 1rem;padding-bottom: 1rem;background: salmon;font-size: 1.5rem;font-weight: 800;color: white;">Join
-          Now</button>
-      </div>
-      <div class="s-id-2-part-2">
-        <img src="./images/run.png" alt="" style="width: 100%;">
-      </div>
-    </section>
-    <section class="" id="s-id-3">
-      <h3>Tarinings and Excercises</h3>
-      <p>We believe Fitness shoulb be accessible to everyone, everywhere, regardless of income or access to a gym. With
-        hundreds of professional workout.</p>
-      <div class="triple-collage-containers-1">
-        <img src="./images/exercise1.jpg" alt="">
-        <img src="./images/exercise2.png" alt="">
-        <img class="hidden" src="./images/exercise3.png" alt="">
-      </div>
-      <div class="triple-collage-containers-2">
-        <img src="./images/exercise4.png" alt="">
-        <img src="./images/exercise5.jpg" alt="">
-        <img class="hidden" src="./images/exercise6.jpg" alt="">
-      </div>
-    </section>  
-    <section class="" id="s-id-4">
-
-    </section>
-    <section class="" id="s-id-5"></section>
-    <section class="" id="s-id-6"></section>
-  </main>
-  <footer>
-  </footer>
-</body>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>

@@ -1,0 +1,20 @@
+/* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px;
+gap: 47px;
+
+margin: 0 auto;
+width: 465px;
+height: 46px;
+
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 39px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;

@@ -1,0 +1,96 @@
+@media screen and (min-width:576.1px) {
+    .nav-bar {
+      display: none;
+    }
+  
+    header {
+      background: linear-gradient(#111111 0%, rgba(119, 119, 119, 0) 100%);
+      /* background:#111111; */
+    }
+  
+    body {
+      background: #111111;
+    }
+  
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-left: 190px;
+      margin-right: 190px;
+      padding-top: 3rem;
+    }
+    .nav-op ul li a {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      color: #FFFFFF;
+    }
+  
+    .nav-op ul li a:hover {
+      background: #E6533C;
+      border-radius: 2.25rem;
+    }
+  
+    .header-banner {
+      display: flex;
+      justify-content: space-between;
+      margin-left: 190px;
+      margin-right: 214px;
+    }
+  
+    .header-banner-part-1 {
+      width: 520px;
+      height: 440px;
+    }
+  
+    #hbp-1-h {
+      
+    }
+  
+    .banner-button-1 {
+      display: flex;
+      gap: 14px;
+    }
+  
+    .download-now {
+      
+    }
+  
+    .header-banner-part-2 {}
+  
+    .video-tutorial {
+      width: 206px;
+      height: 96px;
+      font-size: 16px;
+      background: local;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      position: absolute;
+      left: 854px;
+      top: 556px;
+      backdrop-filter: blur(10px);
+    }
+  
+    .free-vidoes {
+      width: 193px;
+      height: 98px;
+      background: local;
+      border-radius: 12px;
+      position: absolute;
+      left: 1180px;
+      top: 220px;
+      backdrop-filter: blur(10px);
+    }
+    .section-1-collage{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+    .section-1{
+        margin: 0px auto;
+        text-align: center;
+    }
+    .section-1-collage{
+        padding-top: 158px;
+    }
+  }
