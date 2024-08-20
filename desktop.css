@@ -1,96 +1,140 @@
-@media screen and (min-width:576.1px) {
-    .nav-bar {
-      display: none;
-    }
-  
-    header {
-      background: linear-gradient(#111111 0%, rgba(119, 119, 119, 0) 100%);
-      /* background:#111111; */
-    }
-  
-    body {
-      background: #111111;
-    }
-  
-    .nav {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-left: 190px;
-      margin-right: 190px;
-      padding-top: 3rem;
-    }
-    .nav-op ul li a {
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-      color: #FFFFFF;
-    }
-  
-    .nav-op ul li a:hover {
-      background: #E6533C;
-      border-radius: 2.25rem;
-    }
-  
-    .header-banner {
-      display: flex;
-      justify-content: space-between;
-      margin-left: 190px;
-      margin-right: 214px;
-    }
-  
-    .header-banner-part-1 {
-      width: 520px;
-      height: 440px;
-    }
-  
-    #hbp-1-h {
-      
-    }
-  
-    .banner-button-1 {
-      display: flex;
-      gap: 14px;
-    }
-  
-    .download-now {
-      
-    }
-  
-    .header-banner-part-2 {}
-  
-    .video-tutorial {
-      width: 206px;
-      height: 96px;
-      font-size: 16px;
-      background: local;
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      border-radius: 12px;
-      position: absolute;
-      left: 854px;
-      top: 556px;
-      backdrop-filter: blur(10px);
-    }
-  
-    .free-vidoes {
-      width: 193px;
-      height: 98px;
-      background: local;
-      border-radius: 12px;
-      position: absolute;
-      left: 1180px;
-      top: 220px;
-      backdrop-filter: blur(10px);
-    }
-    .section-1-collage{
-        display: flex;
-        flex-direction: row;
-        gap: 40px;
-    }
-    .section-1{
-        margin: 0px auto;
-        text-align: center;
-    }
-    .section-1-collage{
-        padding-top: 158px;
-    }
+@media screen and (min-width: 576.1px) {
+  .nav-bar {
+    display: none;
   }
+
+  header {
+    background: linear-gradient(#111111 0%, rgba(119, 119, 119, 0) 100%);
+    /* background:#111111; */
+  }
+
+  body {
+    background: #111111;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 190px;
+    margin-right: 190px;
+    padding-top: 3rem;
+  }
+  .nav-op ul li a {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #ffffff;
+  }
+
+  .nav-op ul li a:hover {
+    background: #e6533c;
+    border-radius: 2.25rem;
+  }
+
+  .header-banner {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 190px;
+    margin-right: 214px;
+  }
+
+  .header-banner-part-1 {
+    width: 520px;
+    height: 440px;
+  }
+
+  #hbp-1-h {
+  }
+
+  .banner-button-1 {
+    display: flex;
+    gap: 14px;
+  }
+
+  .download-now {
+  }
+
+  .header-banner-part-2 {
+  }
+
+  .video-tutorial {
+    width: 206px;
+    height: 96px;
+    font-size: 16px;
+    background: local;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    position: absolute;
+    left: 854px;
+    top: 556px;
+    backdrop-filter: blur(10px);
+  }
+
+  .free-vidoes {
+    width: 193px;
+    height: 98px;
+    background: local;
+    border-radius: 12px;
+    position: absolute;
+    left: 1180px;
+    top: 220px;
+    backdrop-filter: blur(10px);
+  }
+  .section-1-collage {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .section-1 {
+    margin: 0px auto;
+    text-align: center;
+  }
+  .section-1-collage {
+    padding-top: 158px;
+  }
+  .section-2 {
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-top: 110px;
+    background:rgba(255, 255, 255, 0.5);
+    border-radius: 18px;
+  }
+  #section-2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .section-2-part-1{
+    max-width: 443px;
+    max-height: 190px;
+  }
+  .section-2-part-1-title {
+    font-size: 48px;
+    font-weight: 900;
+    padding-left: 54px;
+    padding-top: 41px;
+  }
+  .section-2-part-1-des {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    padding-top: 14px;
+    padding-left: 54px;
+  }
+  .join-now{
+    width: 224px;
+    height: 54px;
+    background: #e6533c;
+    border-radius: 42px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 34px;
+    border: none;
+    margin-left:54px;
+  }
+  .section-2-part-2{
+    padding: 30px;
+  }
+  .section-2-part-2 img{
+    max-width: 366px;
+    max-height: 312px;
+  }
+}
