@@ -19,7 +19,14 @@
         font-style: normal;
         color: white;
       }
-
+      td,
+      th {
+        border: 1px solid black;
+        text-align: center;
+      }
+      table {
+        border-collapse: collapse;
+      }
       @media screen and (max-width: 576px) {
         .nav-op {
           display: none;
@@ -114,37 +121,38 @@
         .section-2-part-2 img {
           max-width: 287px;
         }
-        .image-3,.image-4{
-          display: none ;
+        .image-3,
+        .image-4 {
+          display: none;
         }
-        .section-3-title{
+        .section-3-title {
           font-size: 32px;
           font-weight: 900;
           padding-top: 66px;
           padding-left: 20px;
           padding-right: 42px;
         }
-        .section-3-des{
+        .section-3-des {
           font-size: 14px;
           color: rgba(255, 255, 255, 0.5);
           padding-left: 20px;
           padding-right: 42px;
           padding-bottom: 38px;
         }
-        .section-3-collages{
+        .section-3-collages {
           /* width: 100%; */
         }
-        .section-3-collages-part-1,.section-3-collages-part-2{
+        .section-3-collages-part-1,
+        .section-3-collages-part-2 {
           display: grid;
-          grid-template-columns: repeat(2,1fr);
+          grid-template-columns: repeat(2, 1fr);
           /* flex-direction: row; */
           /* width: 100%; */
         }
-        img{
+        img {
           width: 100%;
           height: 100%;
         }
-        
       }
     </style>
     <link rel="stylesheet" href="desktop.css" />
@@ -375,6 +383,88 @@
             <div class="image-4"><img src="./images/m-e-4-m.png" alt="" /></div>
             <div class="image-5"><img src="./images/m-e-5.png" alt="" /></div>
             <div class="image-6"><img src="./images/m-e-6.png" alt="" /></div>
+          </div>
+        </div>
+      </section>
+      <section class="section-4 inter">
+        <div class="section-4-part-1">
+          <div class="section-4-part-1-title">BMI Calculator</div>
+          <div class="section-4-part-1-des">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym.
+          </div>
+        </div>
+        <div class="section-4-part-2">
+          <div class="section-4-part-2-part-1">
+            <div class="section-4-part-2-part-1-title inter">
+              BMI Calculator Chart
+            </div>
+            <table>
+              <tr>
+                <th>BMI</th>
+                <th>Weight Status</th>
+              </tr>
+              <tr>
+                <td>Below 18.5</td>
+                <td>Underweight</td>
+              </tr>
+              <tr>
+                <td>18.5-24.9</td>
+                <td>Healthy</td>
+              </tr>
+              <tr>
+                <td>25.0-29.9</td>
+                <td>Overweight</td>
+              </tr>
+              <tr>
+                <td>30.0 and Above</td>
+                <td>Obese</td>
+              </tr>
+            </table>
+          </div>
+          <div class="section-4-part-2-part-2">
+            <div class="form-title">Calculate your BMI</div>
+            <div class="form-des">
+              We believe fitness should be accessible to everyone, everywhere,
+              regardless of income or access to a gym.
+            </div>
+            <form action="">
+              <div class="line-1">
+                <input type="number" name="" id="" placeholder="Height/cm" style="background: rgba(255, 255, 255, 0.6);border-radius: 8px;"/>
+                <input type="number" name="" id="" placeholder="Weight/kg" style="background: rgba(255, 255, 255, 0.6);border-radius: 8px;"/>
+              </div>
+              <div class="line-2">
+                <input type="number" name="" id="" placeholder="Age" style="background: rgba(255, 255, 255, 0.6);border-radius: 8px;"/>
+                <select name="" id="" style="background: rgba(255, 255, 255, 0.6);border-radius: 8px;">
+                  <option value="Sex" style="background: rgba(255, 255, 255, 0.6);">Sex</option>
+                  <option value="Male" style="background: rgba(255, 255, 255, 0.6);">Male</option>
+                  <option value="Female" style="background: rgba(255, 255, 255, 0.6);">Female</option>
+                </select>
+              </div>
+              <div class="line-3">
+                <select name="" id="" style="background: rgba(255, 255, 255, 0.6);border-radius: 8px;">
+                  <option value="Select an activity factor" style="background: rgba(255, 255, 255, 0.6);border-radius: 8px;">
+                    Select an activity factor
+                  </option>
+                </select>
+              </div>
+              <div class="line-4">
+                <button
+                  class="inter"
+                  style="
+                    height: 54px;
+                    width: 224px;
+                    border-radius: 42px;
+                    background: #e6533c;
+                    font-size: 18px;
+                    font-weight: 600;
+                    border: none;
+                  "
+                >
+                  Calculate
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </section>
