@@ -68,6 +68,83 @@
           flex-direction: column;
           text-align: center;
         }
+        .section-2 {
+          background: rgba(255, 255, 255, 0.5);
+          border-radius: 18px;
+        }
+        #section-2 {
+          display: flex;
+          flex-direction: column;
+        }
+        .section-2-part-1 {
+          max-width: 443px;
+          max-height: 190px;
+          display: flex;
+          flex-direction: column;
+        }
+        .section-2-part-1-title {
+          font-size: 32px;
+          font-weight: 900;
+          padding-left: 33px;
+          padding-right: 33px;
+          padding-top: 31px;
+        }
+        .section-2-part-1-des {
+          color: rgba(255, 255, 255, 0.5);
+          font-size: 14px;
+          padding-top: 14px;
+          padding-left: 33px;
+          padding-right: 33px;
+          padding-bottom: 24px;
+        }
+        .join-now {
+          width: 287px;
+          height: 54px;
+          background: #e6533c;
+          border-radius: 42px;
+          font-size: 18px;
+          font-weight: 600;
+          border: none;
+          margin: auto;
+        }
+        .section-2-part-2 {
+          padding: 30px;
+          margin: auto;
+        }
+        .section-2-part-2 img {
+          max-width: 287px;
+        }
+        .image-3,.image-4{
+          display: none ;
+        }
+        .section-3-title{
+          font-size: 32px;
+          font-weight: 900;
+          padding-top: 66px;
+          padding-left: 20px;
+          padding-right: 42px;
+        }
+        .section-3-des{
+          font-size: 14px;
+          color: rgba(255, 255, 255, 0.5);
+          padding-left: 20px;
+          padding-right: 42px;
+          padding-bottom: 38px;
+        }
+        .section-3-collages{
+          width: 100%;
+        }
+        .section-3-collages-part-1,.section-3-collages-part-2{
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+          /* flex-direction: row; */
+          width: 100%;
+        }
+        img{
+          width: 100%;
+          height: 100%;
+        }
+        
       }
     </style>
     <link rel="stylesheet" href="desktop.css" />
@@ -267,7 +344,9 @@
       <section class="section-2">
         <div id="section-2">
           <div class="section-2-part-1">
-            <div class="section-2-part-1-title inter">Run an Extra Mile Easily</div>
+            <div class="section-2-part-1-title inter">
+              Run an Extra Mile Easily
+            </div>
             <div class="section-2-part-1-des inter">
               We believe fitness should be accessible to everyone, everywhere,
               regardless of income or access to a gym. With hundreds of
@@ -277,6 +356,25 @@
           </div>
           <div class="section-2-part-2">
             <img src="./images/run.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="section-3">
+        <div class="section-3-title inter">Trainings and Exercises</div>
+        <div class="section-3-des inter">
+          We believe fitness should be accessible to everyone, everywhere,
+          regardless of income or access to a gym.
+        </div>
+        <div class="section-3-collages">
+          <div class="section-3-collages-part-1">
+            <div class="image-1"><img src="./images/m-e-1.png" alt="" /></div>
+            <div class="image-2"><img src="./images/m-e-2.png" alt="" /></div>
+            <div class="image-3"><img src="./images/m-e-3.png" alt="" /></div>
+          </div>
+          <div class="section-3-collages-part-2">
+            <div class="image-4"><img src="./images/m-e-4.png" alt="" /></div>
+            <div class="image-5"><img src="./images/m-e-5.png" alt="" /></div>
+            <div class="image-6"><img src="./images/m-e-6.png" alt="" /></div>
           </div>
         </div>
       </section>
