@@ -138,4 +138,53 @@
     max-width: 366px;
     max-height: 312px;
   }
+  .section-3{
+    margin-right: 190px;
+    margin-left: 190px;
+    margin-top: 100px;
+    margin-bottom: 88px;
+  }
+  .section-3-title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #ffffff;
+  }
+  .section-3-des{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    /* padding-left: 20px; */
+    padding-right: 382px;
+    padding-bottom: 38px;
+  }
+  .section-3-collages-part-1,.section-3-collages-part-2{
+    display: flex;
+  }
+  .image-1{
+    width: 250px;
+    height: 201.5px;
+  }
+  .image-2{
+    width: 520px;
+    height: 201.5px;
+  }
+  .image-3{
+    width: 290px;
+    height: 201.5px;
+  }
+  .image-4{
+    width: 425px;
+    height: 201.5px;
+  }
+  .image-5{
+    width: 288px;
+    height: 201.5px;
+  }
+  .image-6{
+    width: 347px;
+    height: 201.5px;
+  }
+  img{
+    width: 100%;
+    height: 100%;
+  }
 }
