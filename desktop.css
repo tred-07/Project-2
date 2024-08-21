@@ -252,4 +252,44 @@
   .line-3 {
     padding-bottom: 12px;
   }
+  .section-5-title{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 88px;
+  }
+  .section-5-des{
+    text-align: center;
+    padding-top: 14px;
+    font-weight: 14px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .section-5-collage{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-right: 190px;
+    margin-left: 190px;
+    margin-top: 58px;
+    gap: 20px;
+    background:rgba(34, 34, 34, 1);
+    border: none;
+    border-radius: 18px;
+  }
+  .section-5-div-1,.section-5-div-2,.section-5-div-3{
+    padding-top: 20px;
+    border: none;
+    border-radius: 18px;
+  }
+  .section-5-div-4,.section-5-div-5,.section-5-div-6{
+    padding-bottom: 20px;
+    border: none;
+    border-radius: 18px;
+  }
+  .section-5-div-1,.section-5-div-4{
+    padding-left: 20px;
+  }
+  .section-5-div-3,.section-5-div-6{
+    padding-right: 20px;
+  }
+
 }
