@@ -97,14 +97,14 @@
     margin-left: 190px;
     margin-right: 190px;
     margin-top: 160px;
-    background:rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.5);
     border-radius: 18px;
   }
   #section-2 {
     display: flex;
     justify-content: space-between;
   }
-  .section-2-part-1{
+  .section-2-part-1 {
     max-width: 443px;
     max-height: 190px;
   }
@@ -120,7 +120,7 @@
     padding-top: 14px;
     padding-left: 54px;
   }
-  .join-now{
+  .join-now {
     width: 224px;
     height: 54px;
     background: #e6533c;
@@ -129,109 +129,117 @@
     font-weight: 600;
     margin-top: 34px;
     border: none;
-    margin-left:54px;
+    margin-left: 54px;
   }
-  .section-2-part-2{
+  .section-2-part-2 {
     padding: 30px;
   }
-  .section-2-part-2 img{
+  .section-2-part-2 img {
     max-width: 366px;
     max-height: 312px;
   }
-  .section-3{
+  .section-3 {
     margin-right: 190px;
     margin-left: 190px;
     margin-top: 100px;
     margin-bottom: 88px;
   }
-  .section-3-title{
+  .section-3-title {
     font-size: 48px;
     font-weight: 900;
     color: #ffffff;
   }
-  .section-3-des{
+  .section-3-des {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
     /* padding-left: 20px; */
     padding-right: 382px;
     padding-bottom: 38px;
   }
-  .section-3-collages-part-1,.section-3-collages-part-2{
+  .section-3-collages-part-1,
+  .section-3-collages-part-2 {
     display: flex;
   }
-  .image-1{
+  .image-1 {
     width: 250px;
     height: 201.5px;
   }
-  .image-2{
+  .image-2 {
     width: 520px;
     height: 201.5px;
   }
-  .image-3{
+  .image-3 {
     width: 290px;
     height: 201.5px;
   }
-  .image-4{
+  .image-4 {
     width: 425px;
     height: 201.5px;
   }
-  .image-5{
+  .image-5 {
     width: 288px;
     height: 201.5px;
   }
-  .image-6{
+  .image-6 {
     width: 347px;
     height: 201.5px;
   }
-  img{
+  img {
     width: 100%;
     height: 100%;
   }
-  .section-4-part-1{
+  .section-4-part-1 {
     margin-right: 384.5px;
     margin-left: 384.5px;
     text-align: center;
   }
-  .section-4-part-1-title{
+  .section-4-part-1-title {
     font-size: 48px;
     font-weight: 900;
-
   }
-  .section-4-part-1-des{
+  .section-4-part-1-des {
     font-size: 14px;
   }
-  .section-4-part-2{
+  .section-4-part-2 {
     margin-top: 88px;
     /* background: rgba(255, 255, 255, 0.5); */
     background: rgba(34, 34, 34, 1);
   }
-  .section-4-part-2-part-1{
-
+  .section-4-part-2-part-1 {
   }
-  .section-4-part-2-part-1-title{
+  .section-4-part-2-part-1-title {
     font-size: 28px;
     font-weight: 900;
+    padding-bottom: 52px;
+    padding-top: 52px;
   }
-  .form-des{
+  .form-title {
+    font-size: 28px;
+    font-weight: 900;
+    padding-top: 49px;
+  }
+  .form-des {
     max-width: 577px;
+    padding-bottom: 34px;
+    color: rgba(255, 255, 255, 0.5);
   }
-  .section-4-part-2{
+  .section-4-part-2 {
     display: flex;
     justify-content: space-evenly;
   }
-  input{
+  input {
     width: 282.5px;
     height: 48px;
     font-size: 16px;
   }
-  .line-2 select{
+  .line-2 select {
     width: 282.5px;
     height: 48px;
     font-size: 16px;
     /* color: rgba(255, 255, 255, 0.6); */
     color: rgba(204, 204, 204, 1);
   }
-  .line-3 select{
+  .line-3 select {
     width: 577px;
     height: 48px;
     /* color: rgba(255, 255, 255, 0.6); */
@@ -239,7 +247,9 @@
     background: rgba(204, 204, 204, 1);
     font-size: 16px;
   }
-  .line-1,.line-2,.line-3{
+  .line-1,
+  .line-2,
+  .line-3 {
     padding-bottom: 12px;
   }
 }
