@@ -80,11 +80,6 @@
     top: 21.25rem;
     backdrop-filter: blur(10px);
   }
-  .section-1-collage {
-    display: flex;
-    flex-direction: row;
-    gap: 2.5rem;
-  }
   .section-1 {
     margin-right: 12.375rem;
     margin-left: 12.375rem;
@@ -92,6 +87,11 @@
   }
   .section-1-collage {
     padding-top: 13.625rem;
+    display: flex;
+    gap: 2.5rem;
+  }
+  .section-1-collage div{
+    width: 100%;
   }
   .section-2 {
     margin-left: 11.875rem;
@@ -139,10 +139,8 @@
     max-height: 30.75rem;
   }
   .section-3 {
-    margin-right: 11.875rem;
-    margin-left: 11.875rem;
-    margin-top: 6.25rem;
-    margin-bottom: 5.5rem;
+    text-align: center;
+    display: none;
   }
   .section-3-title {
     font-size: 3rem;
@@ -159,6 +157,7 @@
   .section-3-collages-part-1,
   .section-3-collages-part-2 {
     display: flex;
+    width: 100%;
   }
   .image-1 {
     width: 15.625rem;
@@ -184,7 +183,7 @@
     width: 21.6875rem;
     height: 12.59375rem;
   }
-  img {
+  .image-1 img, .image-2 img, .image-3 img, .image-4 img, .image-5 img, .image-6 img {
     width: 100%;
     height: 100%;
   }
@@ -251,6 +250,9 @@
   .line-2,
   .line-3 {
     padding-bottom: 0.75rem;
+  }
+  .section-5{
+    margin: auto;
   }
   .section-5-title{
     text-align: center;
