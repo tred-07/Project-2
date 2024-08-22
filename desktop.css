@@ -58,29 +58,31 @@
   }
 
   .video-tutorial {
-    width: 12.875rem;
+    max-width: 12.875rem;
     height: 4rem;
     font-size: 1rem;
     background: local;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 0.75rem;
     position: absolute;
-    left: 53.375rem;
+    left: 56.375rem;
     top: 34.75rem;
-    backdrop-filter: blur(40px);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
     font-size: 0.875rem;
     color: rgba(255, 255, 255, 0.5);
   }
 
   .free-vidoes {
-    width: 12.0625rem;
+    max-width: 12.0625rem;
     height: 6.125rem;
-    background: local;
     border-radius: 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
     position: absolute;
     left: 73.75rem;
     top: 15.25rem;
-    backdrop-filter: blur(40px);
+    background: rgba(255, 255, 255, 0.1);
+    border:none;
     font-size: 0.875rem;
     color: rgba(255, 255, 255, 0.5);
   }
