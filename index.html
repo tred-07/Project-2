@@ -45,10 +45,12 @@
         border-collapse: collapse;
       }
       body {
-          background: #111111;
-        }
+        background: #111111;
+      }
       @media screen and (max-width: 576px) {
-        header,main,footer{
+        header,
+        main,
+        footer {
           margin: 0px auto;
         }
         .nav-op {
@@ -65,32 +67,43 @@
         .banner-button-1 {
           display: flex;
         }
+        .header-banner-part-2 {
+          position: relative;
+          width: 100%;
+        }
         .video-tutorial {
           /* display: none; */
-          width: 12.875rem;
-          height: 4rem;
+          max-width: 12.875rem;
+          max-height: 4rem;
           font-size: 1rem;
           background: local;
           border: 1px solid rgba(255, 255, 255, 0.1);
           border-radius: 0.75rem;
           position: absolute;
-          left: 2rem;
-          top: 75.25rem;
-          background:  rgba(255, 255, 255, 0.1);
+          top: 55%;
+          left: 25%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          background: rgba(255, 255, 255, 0.1);
           backdrop-filter: blur(10px);
+          padding: 0.5rem;
         }
 
         .free-vidoes {
           /* display: none; */
-          width: 12.0625rem;
-          height: 6.125rem;
+          max-width: 12.0625rem;
+          max-height: 6.125rem;
           background: local;
           border-radius: 0.75rem;
+          border: 1px solid rgba(255, 255, 255, 0.1);
           position: absolute;
-          left: 21.25rem;
-          top: 48.5rem;
-          background:  rgba(255, 255, 255, 0.1);
+          top: 30%;
+          left: 80%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          background: rgba(255, 255, 255, 0.1);
           backdrop-filter: blur(10px);
+          padding: 0.5rem;
         }
         .section-1-collage {
           display: flex;
@@ -119,17 +132,17 @@
           text-align: left;
           padding-left: 1rem;
         }
-        .section-2-part-1-des { 
+        .section-2-part-1-des {
           color: rgba(255, 255, 255, 0.5);
           font-size: 0.875rem;
           padding-top: 0.875rem;
           padding-bottom: 1.5rem;
           max-width: 27.685rem;
-          text-align:left;
+          text-align: left;
           padding-left: 1rem;
         }
         .join-now {
-          max-width:30rem;
+          max-width: 30rem;
           height: 3.375rem;
           background: #e6533c;
           border-radius: 2.625rem;
@@ -235,16 +248,15 @@
           /* margin-right: 1rem; */
         }
         .line-2 select {
-         /* max-width: 10.625625rem; */
+          /* max-width: 10.625625rem; */
           width: 50%;
           height: 3rem;
           font-size: 1rem;
           /* color: rgba(255, 255, 255, 0.6); */
           color: rgba(204, 204, 204, 1);
-          
         }
         .line-3 select {
-          width:100%;
+          width: 100%;
           height: 3rem;
           /* color: rgba(255, 255, 255, 0.6); */
           color: rgba(204, 204, 204, 1);
@@ -449,13 +461,16 @@
           </div>
           <div class="header-banner-part-2">
             <img src="./images/Images 2.png" alt="Banner" />
-            <div id="video-tutorial">
+            <!-- <div id="video-tutorial"> -->
               <button class="free-vidoes inter">
-                <span style="font-size: 1.5rem;font-weight: 900;color: #ffffff;">500+</span> <br />Free Workout
-                Videos
+                <span
+                  style="font-size: 1.5rem; font-weight: 900; color: #ffffff"
+                  >500+</span
+                >
+                <br />Free Workout Videos
               </button>
-            </div>
-            <div id="video-tutorial">
+            <!-- </div> -->
+            <!-- <div id="video-tutorial"> -->
               <button class="video-tutorial inter">
                 <div style="display: flex">
                   <div
@@ -468,12 +483,19 @@
                     "
                   ></div>
                   <div>
-                    <span style="font-size: 1.5rem;font-weight: 900;color: #ffffff;">350+ <br /></span>
+                    <span
+                      style="
+                        font-size: 1.5rem;
+                        font-weight: 900;
+                        color: #ffffff;
+                      "
+                      >350+ <br
+                    /></span>
                     Video tutorial
                   </div>
                 </div>
               </button>
-            </div>
+            <!-- </div> -->
           </div>
         </div>
       </section>
@@ -483,30 +505,72 @@
         <div class="section-1-title inter" style="text-align: center">
           <h1>Change Your Habits</h1>
         </div>
-        <div class="section-1-des inter" style="text-align: center;color:rgba(255, 255, 255, 0.5)">
+        <div
+          class="section-1-des inter"
+          style="text-align: center; color: rgba(255, 255, 255, 0.5)"
+        >
           We believe fitness should be accessible to everyone, everywhere,
           regardless of income or access to a gym.
         </div>
         <div class="section-1-collage">
           <div class="inter">
-            <img src="./images/image 2.png" alt="" style="border-radius: 50%;border:3px solid rgba(255, 255, 255, 0.6)" />
+            <img
+              src="./images/image 2.png"
+              alt=""
+              style="
+                border-radius: 50%;
+                border: 3px solid rgba(255, 255, 255, 0.6);
+              "
+            />
             <h1>Movement</h1>
-            <p style="color:rgba(255, 255, 255, 0.5);font-size: 0.875rem;">We believe fitness should be accessible to everyone</p>
+            <p style="color: rgba(255, 255, 255, 0.5); font-size: 0.875rem">
+              We believe fitness should be accessible to everyone
+            </p>
           </div>
           <div class="inter">
-            <img src="./images/image 3.png" alt="" style="border-radius: 50%;border:3px solid rgba(255, 255, 255, 0.6);font-size: 0.875rem;" />
+            <img
+              src="./images/image 3.png"
+              alt=""
+              style="
+                border-radius: 50%;
+                border: 3px solid rgba(255, 255, 255, 0.6);
+                font-size: 0.875rem;
+              "
+            />
             <h1>Time</h1>
-            <p style="color:rgba(255, 255, 255, 0.5);">We believe fitness should be accessible to everyone</p>
+            <p style="color: rgba(255, 255, 255, 0.5)">
+              We believe fitness should be accessible to everyone
+            </p>
           </div>
           <div class="inter">
-            <img src="./images/image 4.png" alt="" style="border-radius: 50%;border:3px solid rgba(255, 255, 255, 0.6);font-size: 0.875rem;" />
+            <img
+              src="./images/image 4.png"
+              alt=""
+              style="
+                border-radius: 50%;
+                border: 3px solid rgba(255, 255, 255, 0.6);
+                font-size: 0.875rem;
+              "
+            />
             <h1>Practice</h1>
-            <p style="color:rgba(255, 255, 255, 0.5);">We believe fitness should be accessible to everyone</p>
+            <p style="color: rgba(255, 255, 255, 0.5)">
+              We believe fitness should be accessible to everyone
+            </p>
           </div>
           <div class="inter">
-            <img src="./images/image 5.png" alt="" style="border-radius: 50%;border:3px solid rgba(255, 255, 255, 0.6);font-size: 0.875rem;" />
+            <img
+              src="./images/image 5.png"
+              alt=""
+              style="
+                border-radius: 50%;
+                border: 3px solid rgba(255, 255, 255, 0.6);
+                font-size: 0.875rem;
+              "
+            />
             <h1>Weight Loss</h1>
-            <p style="color:rgba(255, 255, 255, 0.5);font-size: 0.875rem;">We believe fitness should be accessible to everyone</p>
+            <p style="color: rgba(255, 255, 255, 0.5); font-size: 0.875rem">
+              We believe fitness should be accessible to everyone
+            </p>
           </div>
         </div>
       </section>
@@ -514,7 +578,8 @@
         <div id="section-2">
           <div class="section-2-part-1">
             <div class="section-2-part-1-title inter">
-              Run an Extra <br> Mile Easily
+              Run an Extra <br />
+              Mile Easily
             </div>
             <div class="section-2-part-1-des inter">
               We believe fitness should be accessible to everyone, everywhere,
@@ -599,7 +664,7 @@
                   style="
                     background: rgba(255, 255, 255, 0.6);
                     border-radius: 8px;
-                    color:rgba(255, 255, 255, 0.6);
+                    color: rgba(255, 255, 255, 0.6);
                   "
                 />
                 <input
@@ -637,19 +702,19 @@
                 >
                   <option
                     value="Sex"
-                    style="background: rgba(255, 255, 255, 0.6);color: blue;"
+                    style="background: rgba(255, 255, 255, 0.6); color: blue"
                   >
                     Sex
                   </option>
                   <option
                     value="Male"
-                    style="background: rgba(255, 255, 255, 0.6);color: blue;"
+                    style="background: rgba(255, 255, 255, 0.6); color: blue"
                   >
                     Male
                   </option>
                   <option
                     value="Female"
-                    style="background: rgba(255, 255, 255, 0.6);color: blue;"
+                    style="background: rgba(255, 255, 255, 0.6); color: blue"
                   >
                     Female
                   </option>
