@@ -16,8 +16,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 190px;
-    margin-right: 190px;
+    margin-left: 11.875rem;
+    margin-right: 11.875rem;
     padding-top: 3rem;
   }
   .nav-op ul li a {
@@ -34,13 +34,13 @@
   .header-banner {
     display: flex;
     justify-content: space-between;
-    margin-left: 190px;
-    margin-right: 214px;
+    margin-left: 11.875rem;
+    margin-right: 13.375rem;
   }
 
   .header-banner-part-1 {
-    width: 520px;
-    height: 440px;
+    width: 32.5rem;
+    height: 27.5rem;
   }
 
   #hbp-1-h {
@@ -48,7 +48,7 @@
 
   .banner-button-1 {
     display: flex;
-    gap: 14px;
+    gap: 0.875rem;
   }
 
   .download-now {
@@ -58,169 +58,169 @@
   }
 
   .video-tutorial {
-    width: 206px;
-    height: 96px;
-    font-size: 16px;
+    width: 12.875rem;
+    height: 4rem;
+    font-size: 1rem;
     background: local;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
+    border-radius: 0.75rem;
     position: absolute;
-    left: 854px;
-    top: 556px;
+    left: 53.375rem;
+    top: 34.75rem;
     backdrop-filter: blur(10px);
   }
 
   .free-vidoes {
-    width: 193px;
-    height: 98px;
+    width: 12.0625rem;
+    height: 6.125rem;
     background: local;
-    border-radius: 12px;
+    border-radius: 0.75rem;
     position: absolute;
-    left: 1180px;
-    top: 220px;
+    left: 73.75rem;
+    top: 21.25rem;
     backdrop-filter: blur(10px);
   }
   .section-1-collage {
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 2.5rem;
   }
   .section-1 {
-    margin-right: 198px;
-    margin-left: 198px;
+    margin-right: 12.375rem;
+    margin-left: 12.375rem;
     text-align: center;
   }
   .section-1-collage {
-    padding-top: 158px;
+    padding-top: 13.625rem;
   }
   .section-2 {
-    margin-left: 190px;
-    margin-right: 190px;
-    margin-top: 160px;
+    margin-left: 11.875rem;
+    margin-right: 11.875rem;
+    margin-top: 10rem;
     background: rgba(255, 255, 255, 0.5);
-    border-radius: 18px;
+    border-radius: 1.125rem;
   }
   #section-2 {
     display: flex;
     justify-content: space-between;
   }
   .section-2-part-1 {
-    max-width: 443px;
-    max-height: 190px;
+    max-width:27.6875rem;
+    max-height: 11.875rem;
   }
   .section-2-part-1-title {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;
-    padding-left: 54px;
-    padding-top: 41px;
+    padding-left: 3.375rem;
+    padding-top: 2.5625rem;
   }
   .section-2-part-1-des {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
-    padding-top: 14px;
-    padding-left: 54px;
+    font-size: 0.875rem;
+    padding-top: 0.875rem;
+    padding-left: 3.375rem;
   }
   .join-now {
-    width: 224px;
-    height: 54px;
+    width: 14rem;
+    height: 3.375rem;
     background: #e6533c;
-    border-radius: 42px;
-    font-size: 18px;
+    border-radius: 2.625rem;
+    font-size: 1.125rem;
     font-weight: 600;
-    margin-top: 34px;
+    margin-top: 2.125rem;
     border: none;
-    margin-left: 54px;
+    margin-left: 3.375rem;
   }
   .section-2-part-2 {
-    padding: 30px;
+    padding: 1.875rem;
   }
   .section-2-part-2 img {
-    max-width: 366px;
-    max-height: 312px;
+    max-width: 34.125rem;
+    max-height: 30.75rem;
   }
   .section-3 {
-    margin-right: 190px;
-    margin-left: 190px;
-    margin-top: 100px;
-    margin-bottom: 88px;
+    margin-right: 11.875rem;
+    margin-left: 11.875rem;
+    margin-top: 6.25rem;
+    margin-bottom: 5.5rem;
   }
   .section-3-title {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;
     color: #ffffff;
   }
   .section-3-des {
-    font-size: 14px;
+    font-size: 0.875rem;
     color: rgba(255, 255, 255, 0.5);
-    /* padding-left: 20px; */
-    padding-right: 382px;
-    padding-bottom: 38px;
+    /* padding-left: 1.25rem; */
+    padding-right: 23.875rem;
+    padding-bottom: 2.375rem;
   }
   .section-3-collages-part-1,
   .section-3-collages-part-2 {
     display: flex;
   }
   .image-1 {
-    width: 250px;
-    height: 201.5px;
+    width: 15.625rem;
+    height: 12.59375rem;
   }
   .image-2 {
-    width: 520px;
-    height: 201.5px;
+    width: 32.5rem;
+    height: 12.59375rem;
   }
   .image-3 {
-    width: 290px;
-    height: 201.5px;
+    width: 18.125rem;
+    height: 12.59375rem;
   }
   .image-4 {
-    width: 425px;
-    height: 201.5px;
+    width: 26.5625rem;
+    height: 12.59375rem;
   }
   .image-5 {
-    width: 288px;
-    height: 201.5px;
+    width: 25.5rem;
+    height: 12.59375rem;
   }
   .image-6 {
-    width: 347px;
-    height: 201.5px;
+    width: 21.6875rem;
+    height: 12.59375rem;
   }
   img {
     width: 100%;
     height: 100%;
   }
   .section-4-part-1 {
-    margin-right: 384.5px;
-    margin-left: 384.5px;
+    margin-right: 24.03125rem;
+    margin-left: 24.03125rem;
     text-align: center;
   }
   .section-4-part-1-title {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;
   }
   .section-4-part-1-des {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .section-4-part-2 {
-    margin-top: 88px;
+    margin-top: 5.5rem;
     /* background: rgba(255, 255, 255, 0.5); */
     background: rgba(34, 34, 34, 1);
   }
   .section-4-part-2-part-1 {
   }
   .section-4-part-2-part-1-title {
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 900;
-    padding-bottom: 52px;
-    padding-top: 52px;
+    padding-bottom: 3.25rem;
+    padding-top: 3.25rem;
   }
   .form-title {
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 900;
-    padding-top: 49px;
+    padding-top: 3.0625rem;
   }
   .form-des {
-    max-width: 577px;
-    padding-bottom: 34px;
+    max-width: 36.0625rem;
+    padding-bottom: 2.125rem;
     color: rgba(255, 255, 255, 0.5);
   }
   .section-4-part-2 {
@@ -228,84 +228,84 @@
     justify-content: space-evenly;
   }
   input {
-    width: 282.5px;
-    height: 48px;
-    font-size: 16px;
+    width: 17.625625rem;
+    height: 3rem;
+    font-size: 1rem;
   }
   .line-2 select {
-    width: 282.5px;
-    height: 48px;
-    font-size: 16px;
+    width: 17.625625rem;
+    height: 3rem;
+    font-size: 1rem;
     /* color: rgba(255, 255, 255, 0.6); */
     color: rgba(204, 204, 204, 1);
   }
   .line-3 select {
-    width: 577px;
-    height: 48px;
+    width: 36.0625rem;
+    height: 3rem;
     /* color: rgba(255, 255, 255, 0.6); */
     color: rgba(204, 204, 204, 1);
     background: rgba(204, 204, 204, 1);
-    font-size: 16px;
+    font-size: 1rem;
   }
   .line-1,
   .line-2,
   .line-3 {
-    padding-bottom: 12px;
+    padding-bottom: 0.75rem;
   }
   .section-5-title{
     text-align: center;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;
-    padding-top: 88px;
+    padding-top: 5.5rem;
   }
   .section-5-des{
     text-align: center;
-    padding-top: 14px;
-    font-weight: 14px;
+    padding-top: 0.875rem;
+    font-weight: 0.875rem;
     color: rgba(255, 255, 255, 0.5);
   }
   .section-5-collage{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin-right: 190px;
-    margin-left: 190px;
-    margin-top: 58px;
-    gap: 20px;
+    margin-right: 11.875rem;
+    margin-left: 11.875rem;
+    margin-top: 3.625rem;
+    gap: 1.25rem;
     background:rgba(34, 34, 34, 1);
     border: none;
-    border-radius: 18px;
+    border-radius: 1.125rem;
   }
   .section-5-div-1,.section-5-div-2,.section-5-div-3{
-    padding-top: 20px;
+    padding-top: 1.25rem;
     border: none;
-    border-radius: 18px;
+    border-radius: 1.125rem;
   }
   .section-5-div-4,.section-5-div-5,.section-5-div-6{
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
     border: none;
-    border-radius: 18px;
+    border-radius: 1.125rem;
   }
   .section-5-div-1,.section-5-div-4{
-    padding-left: 20px;
+    padding-left: 1.25rem;
   }
   .section-5-div-3,.section-5-div-6{
-    padding-right: 20px;
+    padding-right: 1.25rem;
   }
   .footer-part-2{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin-right: 190px;
-    margin-left: 190px;
-    padding-top: 66px;
+    margin-right: 11.875rem;
+    margin-left: 11.875rem;
+    padding-top: 4.125rem;
   }
   .footer-part-2-part-1-options ul li{
-    padding-bottom: 39px;
+    padding-bottom: 2.4375rem;
   }
   .footer-part-2-part-2-options ul li{
-    padding-bottom: 39px;
+    padding-bottom: 2.4375rem;
   }
   hr{
-    margin-right: 190px;
-    margin-left: 190px;
+    margin-right: 11.875rem;
+    margin-left: 11.875rem;
   }
 }
