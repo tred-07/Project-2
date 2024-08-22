@@ -55,6 +55,7 @@
   }
 
   .header-banner-part-2 {
+    position: relative;
   }
 
   .video-tutorial {
@@ -65,12 +66,15 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 0.75rem;
     position: absolute;
-    left: 56.375rem;
-    top: 34.75rem;
+    top: 80%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     font-size: 0.875rem;
     color: rgba(255, 255, 255, 0.5);
+    padding: 1rem;
   }
 
   .free-vidoes {
@@ -79,23 +83,26 @@
     border-radius: 0.75rem;
     border: 1px solid rgba(255, 255, 255, 0.1);
     position: absolute;
-    left: 73.75rem;
-    top: 15.25rem;
+    top: 30%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     background: rgba(255, 255, 255, 0.1);
-    border:none;
+    border: none;
     font-size: 0.875rem;
     color: rgba(255, 255, 255, 0.5);
+    padding: 1rem;
   }
   .section-1 {
     margin-right: 12.375rem;
     margin-left: 12.375rem;
     text-align: center;
   }
-  .section-1-title{
+  .section-1-title {
     font-weight: 900;
     font-size: 3rem;
   }
-  .section-1-des{
+  .section-1-des {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.875rem;
     padding-top: 0px;
@@ -105,7 +112,7 @@
     display: flex;
     gap: 2.5rem;
   }
-  .section-1-collage div{
+  .section-1-collage div {
     width: 100%;
   }
   .section-2 {
@@ -120,7 +127,7 @@
     justify-content: space-between;
   }
   .section-2-part-1 {
-    max-width:27.6875rem;
+    max-width: 27.6875rem;
     max-height: 11.875rem;
   }
   .section-2-part-1-title {
@@ -198,7 +205,12 @@
     width: 21.6875rem;
     height: 12.59375rem;
   }
-  .image-1 img, .image-2 img, .image-3 img, .image-4 img, .image-5 img, .image-6 img {
+  .image-1 img,
+  .image-2 img,
+  .image-3 img,
+  .image-4 img,
+  .image-5 img,
+  .image-6 img {
     width: 100%;
     height: 100%;
   }
@@ -269,64 +281,70 @@
   .line-2,
   .line-3 {
     padding-bottom: 0.75rem;
-    gap:1rem;
+    gap: 1rem;
   }
-  .section-5{
+  .section-5 {
     margin: auto;
   }
-  .section-5-title{
+  .section-5-title {
     text-align: center;
     font-size: 3rem;
     font-weight: 900;
     padding-top: 5.5rem;
   }
-  .section-5-des{
+  .section-5-des {
     text-align: center;
     padding-top: 0.875rem;
     font-weight: 0.875rem;
     color: rgba(255, 255, 255, 0.5);
   }
-  .section-5-collage{
+  .section-5-collage {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin-right: 11.875rem;
     margin-left: 11.875rem;
     margin-top: 3.625rem;
     gap: 1.25rem;
-    background:rgba(34, 34, 34, 1);
+    background: rgba(34, 34, 34, 1);
     border: none;
     border-radius: 1.125rem;
   }
-  .section-5-div-1,.section-5-div-2,.section-5-div-3{
+  .section-5-div-1,
+  .section-5-div-2,
+  .section-5-div-3 {
     padding-top: 1.25rem;
     border: none;
     border-radius: 1.125rem;
   }
-  .section-5-div-4,.section-5-div-5,.section-5-div-6{
+  .section-5-div-4,
+  .section-5-div-5,
+  .section-5-div-6 {
     padding-bottom: 1.25rem;
     border: none;
     border-radius: 1.125rem;
   }
-  .section-5-div-1,.section-5-div-4{
+  .section-5-div-1,
+  .section-5-div-4 {
     padding-left: 1.25rem;
   }
-  .section-5-div-3,.section-5-div-6{
+  .section-5-div-3,
+  .section-5-div-6 {
     padding-right: 1.25rem;
   }
-  .footer-part-2{
+  .footer-part-2 {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin-right: 11.875rem;
     margin-left: 11.875rem;
     padding-top: 4.125rem;
   }
-  .footer-part-2-part-1-options ul li{
+  .footer-part-2-part-1-options ul li {
     padding-bottom: 2.4375rem;
   }
-  .footer-part-2-part-2-options ul li{
+  .footer-part-2-part-2-options ul li {
     padding-bottom: 2.4375rem;
   }
-  hr{
+  hr {
     margin-right: 11.875rem;
     margin-left: 11.875rem;
   }
